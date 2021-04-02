@@ -1,0 +1,10 @@
+class ru.devvault.SFSingleton says hello!
+ --- Static Field Singleton takes: 19949400 ms
+class ru.devvault.ESingleton says hello!
+ --- Enum Singleton takes: 1788400 ms
+class ru.devvault.SASingleton says hello!
+ --- Synchronized Accessor Singleton takes: 986400 ms
+class ru.devvault.DCSingleton says hello!
+ --- Double Checked Locking Singleton takes: 975600 ms
+class ru.devvault.OHSingleton says hello!
+ --- On Demand Holder idiom Singleton takes: 1918600 ms

@@ -101,12 +101,17 @@ class OHSingleton {
 
 public class Main {
 
+    /**
+     * Печатает время исполнения
+     * @param taskName
+     * @param runnable
+     */
     public static void printTime(String taskName, Runnable runnable) {
         long startTime = System.nanoTime();
         runnable.run();
         long endTime = System.nanoTime();
         long duration = endTime - startTime;
-        System.out.println(" --- " + taskName + " takes: " + duration + " ms");
+        System.out.println(" --- " + taskName + " takes: " + duration + " ns");
     }
 
     public static void main(String[] args) {
